@@ -1,0 +1,55 @@
+.wrap_top_menu {
+  height: 80px;
+  background-color: #603813; }
+  .wrap_top_menu .wrap_logo img {
+    max-width: 70%;
+    margin-top: 10px; }
+  .wrap_top_menu .wrap_r_top_menu button {
+    font-family: 'Kanit', sans-serif;
+    width: 140px;
+    height: 40px;
+    float: right;
+    margin-top: 18px;
+    border: none;
+    border-radius: 100px;
+    background-color: #A55540;
+    color: #FFFFFF; }
+
+.wrap_btn_round {
+  padding-bottom: 30px;
+  font-family: 'Kanit', sans-serif; }
+  .wrap_btn_round h3 {
+    text-align: center; }
+  .wrap_btn_round .wrap_in_btn {
+    width: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: -ms-fit-content;
+    margin-left: auto;
+    margin-right: auto; }
+    .wrap_btn_round .wrap_in_btn button {
+      width: 120px;
+      outline: none;
+      transition: 0.3s ease-in-out; }
+
+.bg_wrap_btn_round {
+  background-color: #222222;
+  color: #FFFFFF; }
+  .bg_wrap_btn_round button {
+    color: #000000; }
+
+.wrap_bank_sec {
+  height: auto;
+  margin-bottom: 10px; }
+
+footer {
+  height: 60px;
+  background-color: #333333; }
+  footer p {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 200;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 20px; }
+
+/*# sourceMappingURL=style_index.css.map */

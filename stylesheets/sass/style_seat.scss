@@ -1,0 +1,234 @@
+body {
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+}
+#ticket_1 {
+  display: none;
+}
+#ticket_2 {
+  display: none;
+}
+#ticket_3 {
+  display: none;
+}
+#ticket_4 {
+  display: none;
+}
+
+.wrap_stage {
+  height: 80px;
+  background-color: #603813;
+  margin-bottom: 50px;
+  border-radius: 0px 0px 60px 60px;
+  .stage {
+    color:#FFFFFF;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.2em;
+  }
+}
+
+.wrap_sec_a {
+  // background-color: #ffcc00;
+  height: auto;
+  .wrap_in_sec_a{
+    float: right;
+    cursor: pointer;
+    .check_a_a {
+      display: none;
+    }
+    .check_a_a + .in_check_a_a {
+      /*background-color: #ececec;*/
+      background-image: url("../../image/chair/a.png");
+      height: 20px;
+      width: 20px;
+      display:inline-block;
+      padding: 0 0 0 0px;
+      font-size: 0.65em;
+      text-align: center;
+      color: #FFFFFF;
+      padding-left: 1px;
+      padding-top: 5px;
+    }
+    .check_a_a + .in_check_a_b {
+      @extend .in_check_a_a;
+      background-image: url("../../image/chair/b.png");
+    }
+    .check_a_a + .in_check_a_c {
+      @extend .in_check_a_a;
+      background-image: url("../../image/chair/c.png");
+    }
+    .check_a_a + .in_check_a_d {
+      @extend .in_check_a_a;
+      background-image: url("../../image/chair/d.png");
+    }
+    .check_a_a + .in_check_a_e {
+      @extend .in_check_a_a;
+      background-image: url("../../image/chair/e.png");
+    }
+    .check_a_a + .in_check_a_f {
+      @extend .in_check_a_a;
+      background-image: url("../../image/chair/f.png");
+    }
+    .check_a_a + .in_check_a_g {
+      @extend .in_check_a_a;
+      background-image: url("../../image/chair/g.png");
+    }
+    .check_a_a + .in_check_a_h {
+      @extend .in_check_a_a;
+      background-image: url("../../image/chair/h.png");
+    }
+    .check_a_a + .in_check_a_i {
+      @extend .in_check_a_a;
+      background-image: url("../../image/chair/i.png");
+    }
+    .check_a_a + .in_check_a_reserved {
+      @extend .in_check_a_a;
+      background-image: url("../../image/chair/reserved.png");
+    }
+    .check_a_a + .in_check_a_paid {
+      @extend .in_check_a_a;
+      background-image: url("../../image/chair/paid.png");
+    }
+    .check_a_a:checked + .in_check_a_a {
+      background-image: url("../../image/chair/tik.png");
+      height: 20px;
+      width: 20px;
+      display:inline-block;
+      padding: 0 0 0 0px;
+      color: #FFFFFF;
+      padding-left: 1px;
+      padding-top: 5px;
+    }
+  }
+}
+
+// wrap B
+.wrap_sec_b {
+  @extend .wrap_sec_a;
+  // background-color: blue;
+  .wrap_in_sec_b{
+    clear: both;
+    width: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: -ms-fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    .check_a_a {
+      display: none;
+    }
+    .check_a_a + .in_check_a_a {
+      /*background-color: #ececec;*/
+      background-image: url("../../image/chair/a.png");
+      height: 20px;
+      width: 20px;
+      display:inline-block;
+      padding: 0 0 0 0px;
+      font-size: 0.65em;
+      text-align: center;
+      color: #FFFFFF;
+      padding-left: 1px;
+      padding-top: 5px;
+    }
+    .check_a_a + .in_check_a_b {
+      @extend .in_check_a_a;
+      background-image: url("../../image/chair/b.png");
+    }
+    .check_a_a + .in_check_a_c {
+      @extend .in_check_a_a;
+      background-image: url("../../image/chair/c.png");
+    }
+    .check_a_a + .in_check_a_d {
+      @extend .in_check_a_a;
+      background-image: url("../../image/chair/d.png");
+    }
+    .check_a_a + .in_check_a_e {
+      @extend .in_check_a_a;
+      background-image: url("../../image/chair/e.png");
+    }
+    .check_a_a + .in_check_a_f {
+      @extend .in_check_a_a;
+      background-image: url("../../image/chair/f.png");
+    }
+    .check_a_a + .in_check_a_g {
+      @extend .in_check_a_a;
+      background-image: url("../../image/chair/g.png");
+    }
+    .check_a_a + .in_check_a_h {
+      @extend .in_check_a_a;
+      background-image: url("../../image/chair/h.png");
+    }
+    .check_a_a + .in_check_a_i {
+      @extend .in_check_a_a;
+      background-image: url("../../image/chair/i.png");
+    }
+    .check_a_a + .in_check_a_reserved {
+      @extend .in_check_a_a;
+      background-image: url("../../image/chair/reserved.png");
+    }
+    .check_a_a + .in_check_a_paid {
+      @extend .in_check_a_a;
+      background-image: url("../../image/chair/paid.png");
+    }
+    .check_a_a:checked + .in_check_a_a {
+      background-image: url("../../image/chair/tik.png");
+      height: 20px;
+      width: 20px;
+      display:inline-block;
+      padding: 0 0 0 0px;
+      color: #FFFFFF;
+      padding-left: 1px;
+      padding-top: 5px;
+    }
+  }
+  .p_in_sec_b {
+    text-align: center;
+  }
+}
+.wrap_sec_c {
+  @extend .wrap_sec_a;
+  .wrap_in_sec_a{
+    float: left;
+  }
+}
+
+//Personal
+.wrap_personal{
+  background-color: #222222;
+  margin-top: 50px;
+  height: auto;
+  padding-bottom: 20px;
+  h2{
+    font-family: 'Kanit', sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .wrap_box_user{
+    font-family: 'Kanit', sans-serif;
+    color: #FFFFFF;
+    // background-color: #FFCC00;
+    height: auto;
+    .input_box_name , .input_box_nick, .input_box_tel, .input_box_mail{
+      background: none;
+      border: none;
+      border-bottom: 1px solid #FFFFFF;
+      height: 40px;
+      margin-top: 10px;
+      position: relative;
+    }
+    .mar_text{
+      p{
+        margin-top: 20px;
+      }
+    }
+  }
+  .btn_reserved{
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.3em;
+    margin-top: 30px;
+    height: 40px;
+  }
+}

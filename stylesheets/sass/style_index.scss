@@ -1,0 +1,71 @@
+//top menu
+.wrap_top_menu{
+  height: 80px;
+  background-color: #603813;
+  .wrap_logo{
+    img{
+      max-width: 70%;
+      margin-top: 10px;
+    }
+  }
+  .wrap_r_top_menu{
+    button{
+      font-family: 'Kanit', sans-serif;
+      width: 140px;
+      height: 40px;
+      float: right;
+      margin-top: 18px;
+      border: none;
+      border-radius: 100px;
+      background-color: #A55540;
+      color: #FFFFFF;
+    }
+  }
+}
+
+// btn round
+.wrap_btn_round{
+  padding-bottom: 30px;
+  font-family: 'Kanit', sans-serif;
+  h3{
+    text-align: center;
+  }
+  .wrap_in_btn{
+    width: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: -ms-fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    button{
+      width: 120px;
+      outline: none;
+      transition: 0.3s ease-in-out;
+    }
+  }
+}
+.bg_wrap_btn_round{
+  background-color: #222222;
+  color: #FFFFFF;
+  button{
+    color: #000000;
+  }
+}
+
+// bank section
+.wrap_bank_sec{
+  height: auto;
+  margin-bottom: 10px;
+}
+
+footer{
+  height: 60px;
+  background-color: #333333;
+  p{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 200;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 20px;
+  }
+}
