@@ -906,7 +906,7 @@ $seat_i_day2_3 = $conn->day2_zone_c_seat_i();
       <input class="col-xs-12 col-md-8 input_box_nick" type="text" id="nickname_user" name="nickname_3_" value="">
       <br>
       <span class="col-xs-12 col-md-4 mar_text"><p>เบอร์ติดต่อ</p></span>
-      <input class="col-xs-12 col-md-8 input_box_tel" type="text" maxlength="10" name="tel_3_" value="">
+      <input class="col-xs-12 col-md-8 input_box_tel" pattern="[0-9]{10}" type="text" maxlength="10" name="tel_3_" value="">
       <br>
       <span class="col-xs-12 col-md-4 mar_text"><p>Email</p></span>
       <input class="col-xs-12 col-md-8 input_box_mail" type="email" name="email_3_" value="">

@@ -123,6 +123,8 @@ $time3 = date("s");
 $ref_name =  $date.$date2.$date3.$time1.$time2.$time3;
 $_SESSION["ref_name"] = $ref_name;
 
+mysqli_close($conn);
+
 header('Location: seat_process_day1_4.php');
 }
 else {

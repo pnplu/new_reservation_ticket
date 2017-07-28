@@ -124,6 +124,8 @@ if(isset($_POST["name_user"], $_POST["nickname"], $_POST["tel"], $_POST["email"]
   $ref_name =  $date.$date2.$date3.$time1.$time2.$time3;
   $_SESSION["ref_name"] = $ref_name;
 
+  mysqli_close($conn);
+
   header('Location: seat_process_day1_1.php');
 }
 else {

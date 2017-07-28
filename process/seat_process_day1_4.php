@@ -316,6 +316,7 @@ $_SESSION["ref_id"] = $ref_true;
 $update_ref = "UPDATE member SET ref_bill = '$ref_true' WHERE member_id = $member_id";
 $query_up_ref = mysqli_query($conn, $update_ref);
 
+mysqli_close($conn);
 
 header('Location: ../confirm_seat.php');
 
